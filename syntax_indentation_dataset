@@ -1,0 +1,126 @@
+{
+    "syntax_errors": [
+        {
+            "error_message": "SyntaxError: unexpected EOF while parsing",
+            "explanation": "Explanation: Check for missing parentheses or unmatched brackets."
+        },
+        {
+            "error_message": "SyntaxError: invalid syntax",
+            "explanation": "Explanation: Check for missing colons, misplaced parentheses, or invalid expressions."
+        },
+        {
+            "error_message": "SyntaxError: invalid syntax (unexpected token)",
+            "explanation": "Explanation: Look for a missing bracket, an extraneous comma, or an invalid token."
+        },
+        {
+            "error_message": "SyntaxError: EOL while scanning string literal",
+            "explanation": "Explanation: Ensure all string literals are properly closed with matching quotes."
+        },
+        {
+            "error_message": "SyntaxError: unexpected character after line continuation character",
+            "explanation": "Explanation: Ensure that line continuation characters (\) are used correctly and are not followed by an illegal character."
+        },
+        {
+            "error_message": "SyntaxError: invalid syntax: unexpected EOF",
+            "explanation": "Explanation: Likely due to a missing closing parenthesis, bracket, or quote."
+        },
+        {
+            "error_message": "SyntaxError: missing parentheses in call to 'print'",
+            "explanation": "Explanation: Python 3.x requires parentheses around function calls like print()."
+        },
+        {
+            "error_message": "SyntaxError: invalid syntax (def)",
+            "explanation": "Explanation: Check for missing colons (:) at the end of the function definition."
+        },
+        {
+            "error_message": "SyntaxError: unexpected indent",
+            "explanation": "Explanation: Check for misplaced indentation or extra spaces at the beginning of the line."
+        },
+        {
+            "error_message": "SyntaxError: invalid syntax: 'return'",
+            "explanation": "Explanation: Make sure the return statement is used correctly, possibly outside of a function."
+        },
+        {
+            "error_message": "SyntaxError: invalid syntax (with)",
+            "explanation": "Explanation: Ensure the 'with' statement is used with a valid context manager."
+        },
+        {
+            "error_message": "SyntaxError: unexpected token",
+            "explanation": "Explanation: Check for an extra, misplaced symbol or token (e.g., extra comma or parenthesis)."
+        },
+        {
+            "error_message": "SyntaxError: can't assign to operator",
+            "explanation": "Explanation: Ensure that you aren't trying to assign a value to an operator or reserved word."
+        },
+        {
+            "error_message": "SyntaxError: invalid syntax ('if')",
+            "explanation": "Explanation: Ensure that 'if' statements have a condition and end with a colon."
+        },
+        {
+            "error_message": "SyntaxError: invalid syntax (else)",
+            "explanation": "Explanation: Make sure 'else' follows a valid 'if' statement and is properly indented."
+        }
+    ],
+    "indentation_errors": [
+        {
+            "error_message": "IndentationError: expected an indented block",
+            "explanation": "Explanation: After defining a function or class, make sure the following code block is properly indented."
+        },
+        {
+            "error_message": "IndentationError: unindent does not match any outer indentation level",
+            "explanation": "Explanation: Ensure consistent indentation throughout the script. Use 4 spaces or 1 tab per level."
+        },
+        {
+            "error_message": "IndentationError: expected an indented block after 'if' statement",
+            "explanation": "Explanation: After a conditional statement (like 'if'), the subsequent block must be indented."
+        },
+        {
+            "error_message": "IndentationError: unexpected indent",
+            "explanation": "Explanation: An extra indentation is present where it should not be (perhaps an extra tab or spaces)."
+        },
+        {
+            "error_message": "IndentationError: expected an indented block after 'try' statement",
+            "explanation": "Explanation: After a 'try' statement, you must indent the block of code that may raise exceptions."
+        },
+        {
+            "error_message": "IndentationError: unindent does not match any outer indentation level",
+            "explanation": "Explanation: Make sure that all lines at the same level of nesting have the same amount of indentation."
+        },
+        {
+            "error_message": "IndentationError: expected an indented block after 'for' statement",
+            "explanation": "Explanation: After a 'for' loop declaration, the next line must be indented to indicate the block of code to loop over."
+        },
+        {
+            "error_message": "IndentationError: expected an indented block after 'while' statement",
+            "explanation": "Explanation: After a 'while' loop, ensure that the following code block is indented correctly."
+        },
+        {
+            "error_message": "IndentationError: unexpected indent after function definition",
+            "explanation": "Explanation: Ensure that the function body is indented correctly after the 'def' keyword."
+        },
+        {
+            "error_message": "IndentationError: expected an indented block after 'class' declaration",
+            "explanation": "Explanation: After declaring a class, make sure the subsequent code block is indented."
+        },
+        {
+            "error_message": "IndentationError: expected an indented block after 'else' clause",
+            "explanation": "Explanation: Ensure that after 'else', the block of code is indented."
+        },
+        {
+            "error_message": "IndentationError: expected an indented block after 'except' statement",
+            "explanation": "Explanation: After the 'except' statement, the exception handler code must be indented."
+        },
+        {
+            "error_message": "IndentationError: unexpected indent at start of line",
+            "explanation": "Explanation: A line starting with extra indentation is causing the error. Check the indentation level of this line."
+        },
+        {
+            "error_message": "IndentationError: inconsistent use of tabs and spaces",
+            "explanation": "Explanation: Mixing tabs and spaces for indentation is not allowed in Python. Ensure consistency."
+        },
+        {
+            "error_message": "IndentationError: expected an indented block after 'elif' statement",
+            "explanation": "Explanation: After an 'elif' statement, the following block of code must be indented."
+        }
+    ]
+}
