@@ -18,7 +18,7 @@
         },
         {
             "error_message": "SyntaxError: unexpected character after line continuation character",
-            "explanation": "Explanation: Ensure that line continuation characters (\) are used correctly and are not followed by an illegal character."
+            "explanation": "Explanation: Ensure that line continuation characters  are used correctly and are not followed by an illegal character."
         },
         {
             "error_message": "SyntaxError: invalid syntax: unexpected EOF",
